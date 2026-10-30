@@ -1,0 +1,22 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Local database backups and runtime data
+/backups/
+*.dump
+*.backup
+*.sql.gz
+
+# Dependencies and build output
+**/node_modules/
+/web/dist/
+**/coverage/
+*.tsbuildinfo
+
+# Logs and editor/OS files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
